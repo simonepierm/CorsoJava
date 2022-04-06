@@ -4,14 +4,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>srl.neotech</groupId>
-	<!-- prefisso per artifactId 
-		PM_ Patrizio
-		GD_ Giovanni
-		FL_ Federico
-		SP_ Simone
-		MP_ Mauro
-	 -->
-	<artifactId>WebAppTemplate</artifactId>
+	
+	<artifactId>SP_WebApp02</artifactId>
 	<version>0.0.1</version>
 	<packaging>war</packaging>
 
@@ -51,7 +45,6 @@
 				<filtering>true</filtering>
 				<excludes>
 					<exclude>**/conf.properties</exclude>
-					<exclude>application.properties</exclude>
 				</excludes>
 			</resource>
 		</resources>

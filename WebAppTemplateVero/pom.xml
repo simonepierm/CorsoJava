@@ -10,8 +10,9 @@
 		FL_ Federico
 		SP_ Simone
 		MP_ Mauro
+		EL_ Eros
 	 -->
-	<artifactId>SP_WebApp01</artifactId>
+	<artifactId>MN_WebApp01</artifactId>
 	<version>0.0.1</version>
 	<packaging>war</packaging>
 
