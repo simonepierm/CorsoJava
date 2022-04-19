@@ -59,4 +59,6 @@
   </ul>
 </div>
 </body>
+
+<script src="static/js/notte.js">
 </html>
