@@ -32,4 +32,5 @@ public class ViewController {
 	public String ajax() {
 		return "ajax";
 	}
+	
 }
