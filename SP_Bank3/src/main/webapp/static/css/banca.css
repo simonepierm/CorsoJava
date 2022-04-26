@@ -1,3 +1,7 @@
 body  {
-  background-image: url("src/main/webapp/static/images/manowebp");
+  background-color: blue;
+  background-image: url("https://reputationtoday.in/wp-content/uploads/2019/07/handshake-man-woman.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 250px 100px;
 }

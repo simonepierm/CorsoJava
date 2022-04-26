@@ -15,10 +15,7 @@ import srl.neotech.requestresponse.ResponseSearchAereo;
 public class APIController {
 
 	
-	@RequestMapping(value = "/api/hello")
-	public String hello() {
-		return "Ciaoooo!";
-	}
+
 	
 	
 	@ResponseBody
