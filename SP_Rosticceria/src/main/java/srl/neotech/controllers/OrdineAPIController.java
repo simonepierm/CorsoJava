@@ -8,22 +8,24 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import srl.neotech.requestresponse.ResponseBase;
-import srl.neotech.services.ProdottoService;
+import srl.neotech.services.OrdineService;
+
 
 @RestController
-public class ProdottoApiController {
+public class OrdineApiController {
 	
 	@Autowired
-	ProdottoService prodottoService;
+	OrdineService ordineService;
+	
 	
 	@ResponseBody
-	@PostMapping(value = "/api/addProdotto",produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseBase addProdotto(@RequestBody RequestAddProdotto request) {
+	@PostMapping(value = "/api/addOrdine",produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseBase addOrdine (@RequestBody RequestAddOrdine request) {
 		
 		
 		ResponseBase response=new ResponseBase();
 		
-		prodottoService.addProdotto(request.getProdotto());
+		ordineService.addOrdine(request.getOrdine());
 		
 				
 		

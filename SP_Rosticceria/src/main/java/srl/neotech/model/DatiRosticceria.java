@@ -6,7 +6,7 @@ public class DatiRosticceria {
 
 	private static DatiRosticceria instance;
 	private ArrayList<Ordine> ordini=new ArrayList<Ordine>();
-	private ArrayList<Prodotto> prodotto=new ArrayList<Prodotto>();
+	private ArrayList<Prodotto> listino=new ArrayList<Prodotto>();
 	
 	private DatiRosticceria() {
 		
@@ -25,15 +25,13 @@ public class DatiRosticceria {
 			this.ordini = ordini;
 		}
 
-		public ArrayList<Prodotto> getProdotto() {
-			return prodotto;
+		public ArrayList<Prodotto> getListino() {
+			return listino;
 		}
 
-		public void setProdotto(ArrayList<Prodotto> prodotto) {
-			this.prodotto = prodotto;
+		public void setListino(ArrayList<Prodotto> listino) {
+			this.listino = listino;
 		}
 
-		public static void setInstance(DatiRosticceria instance) {
-			DatiRosticceria.instance = instance;
-		}
+		
 }
