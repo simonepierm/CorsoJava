@@ -4,5 +4,5 @@ public enum Tipologia {
 
 	pizza,
 	fritto,
-	
+	pollo;
 }

@@ -5,10 +5,17 @@ public class ResponseBase {
 	private Object simpleData;
 	private String code;
 	private String descr;
+	private String ListaProdotti;
 	
 	
 
 	
+	public String getListaProdotti() {
+		return ListaProdotti;
+	}
+	public void setListaProdotti(String listaProdotti) {
+		ListaProdotti = listaProdotti;
+	}
 	public Object getSimpleData() {
 		return simpleData;
 	}

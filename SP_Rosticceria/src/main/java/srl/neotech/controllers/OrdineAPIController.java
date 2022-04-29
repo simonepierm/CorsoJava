@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 import srl.neotech.requestresponse.ResponseBase;
 import srl.neotech.services.OrdineService;
 
-
 @RestController
 public class OrdineApiController {
 	
