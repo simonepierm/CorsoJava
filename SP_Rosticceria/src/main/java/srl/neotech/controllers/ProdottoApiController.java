@@ -40,8 +40,7 @@ public class ProdottoApiController {
 	public ResponseListaProdotti getListaProdotti() {
 		
 		ResponseListaProdotti response=new ResponseListaProdotti();
-		
-		
+	
 		
 		prodottoService.
 		
