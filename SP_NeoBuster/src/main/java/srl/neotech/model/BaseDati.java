@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class BaseDati {
 	
-	//istanza privata statica
+	
 	private static BaseDati instance;
 	
 	
@@ -12,12 +12,12 @@ public class BaseDati {
 	private ArrayList<Utente> listaUtenti=new ArrayList<Utente>();
 	
 	
-	//costruttore privato
+	
 	private BaseDati() {
 		
 	}
 	
-	//meotodo statico di accesso al singleton
+	
 	public static BaseDati getInstance() {
 		if(instance==null) instance =new BaseDati();
 	return instance;
